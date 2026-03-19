@@ -1,0 +1,42 @@
+{
+    "north_india": {
+        "temperature": 22,
+        "humidity": 45,
+        "precipitation": 0.5,
+        "wind_speed": 12,
+        "weather_code": 1,
+        "cloud_cover": 30,
+        "uv_index": 7,
+        "description": "Mainly clear (mock — North India)"
+    },
+    "central_india": {
+        "temperature": 30,
+        "humidity": 60,
+        "precipitation": 2.0,
+        "wind_speed": 8,
+        "weather_code": 2,
+        "cloud_cover": 50,
+        "uv_index": 8,
+        "description": "Partly cloudy (mock — Central India)"
+    },
+    "south_india": {
+        "temperature": 28,
+        "humidity": 70,
+        "precipitation": 4.0,
+        "wind_speed": 6,
+        "weather_code": 61,
+        "cloud_cover": 65,
+        "uv_index": 6,
+        "description": "Slight rain (mock — South India)"
+    },
+    "default": {
+        "temperature": 27,
+        "humidity": 55,
+        "precipitation": 1.5,
+        "wind_speed": 8,
+        "weather_code": 2,
+        "cloud_cover": 45,
+        "uv_index": 6,
+        "description": "Partly cloudy (mock — Default)"
+    }
+}

@@ -1,0 +1,59 @@
+# ── Python ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── FastAPI / SQLite ────────────────────────────────
+*.db
+*.sqlite3
+*.db-journal
+
+# ── Next.js ─────────────────────────────────────────
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/.env.local
+frontend/.env*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ── Uploads (user data) ────────────────────────────
+backend/uploads/
+backend/reports/
+
+# ── Environment secrets ────────────────────────────
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# ── IDE / OS ───────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Docker ────────────────────────────────────────
+*.log
+
+# ── Temp scripts created during dev ───────────────
+frontend/format_ui.py
+frontend/animate_ui.py

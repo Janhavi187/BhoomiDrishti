@@ -1,0 +1,78 @@
+{
+    "regions": [
+        {
+            "name": "Punjab",
+            "state": "Punjab",
+            "avg_vitality": 72,
+            "dominant_crop": "Wheat",
+            "stress_level": "low",
+            "total_scans": 124,
+            "moisture_trend": "stable",
+            "alert": null,
+            "coordinates": {"lat": 31.1471, "lon": 75.3412}
+        },
+        {
+            "name": "Vidarbha",
+            "state": "Maharashtra",
+            "avg_vitality": 41,
+            "dominant_crop": "Cotton",
+            "stress_level": "high",
+            "total_scans": 89,
+            "moisture_trend": "degrading",
+            "alert": "Drought stress detected — irrigation advisory issued",
+            "coordinates": {"lat": 20.9320, "lon": 77.7523}
+        },
+        {
+            "name": "Thanjavur Delta",
+            "state": "Tamil Nadu",
+            "avg_vitality": 68,
+            "dominant_crop": "Rice",
+            "stress_level": "medium",
+            "total_scans": 156,
+            "moisture_trend": "improving",
+            "alert": null,
+            "coordinates": {"lat": 10.7870, "lon": 79.1378}
+        },
+        {
+            "name": "Malwa Plateau",
+            "state": "Madhya Pradesh",
+            "avg_vitality": 55,
+            "dominant_crop": "Soybean",
+            "stress_level": "medium",
+            "total_scans": 67,
+            "moisture_trend": "stable",
+            "alert": "Moderate nutrient depletion noted",
+            "coordinates": {"lat": 23.1815, "lon": 75.7739}
+        },
+        {
+            "name": "Bundelkhand",
+            "state": "Uttar Pradesh",
+            "avg_vitality": 35,
+            "dominant_crop": "Millets",
+            "stress_level": "high",
+            "total_scans": 43,
+            "moisture_trend": "degrading",
+            "alert": "Severe water stress — emergency measures recommended",
+            "coordinates": {"lat": 25.4358, "lon": 80.3319}
+        },
+        {
+            "name": "Konkan Coast",
+            "state": "Maharashtra",
+            "avg_vitality": 78,
+            "dominant_crop": "Rice",
+            "stress_level": "low",
+            "total_scans": 91,
+            "moisture_trend": "stable",
+            "alert": null,
+            "coordinates": {"lat": 17.0000, "lon": 73.3000}
+        }
+    ],
+    "national_avg_vitality": 58.2,
+    "total_scans_nationwide": 570,
+    "hotspots": [
+        {"region": "Bundelkhand", "issue": "Water Stress", "severity": "critical"},
+        {"region": "Vidarbha", "issue": "Drought", "severity": "high"},
+        {"region": "Malwa Plateau", "issue": "Nutrient Depletion", "severity": "moderate"}
+    ],
+    "last_updated": "2026-03-18T18:00:00Z"
+}
