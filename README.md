@@ -303,5 +303,6 @@ MIT License — Built for hackathon demonstration purposes.
 ---
 
 **🌾 BhoomiDrishti AI — Empowering every farmer with AI intelligence, one smartphone photo at a time.**
-#   B h o o m i D r i s h t i  
+#   B h o o m i D r i s h t i 
+ 
  
